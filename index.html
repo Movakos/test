@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.4.0/css/zocial.min.css" integrity="sha512-D+88+j7wBsrfUyRLxvAi/ZYJ+2xffS/A9skvhx8Q8cxXv5rVrNX5BYm+GblI1POb23bjAygg2nXytDHtoGc9lQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.4.0/css/zocial.css" integrity="sha512-A+ebm6R2fZCA8TYA7r2YybnmwnZVt3eEoBErfxUr994YhhlfVJX1AU2a0nL4SarWN9NAYLT1nYd6VZsywgEu5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            flex-direction: column;
+            color: aqua;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .dropdown-toggle::after {
+            display: inline-block;
+            margin-left: 0.255em;
+            vertical-align: 0.255em;
+            content: none;
+            border-top: 0.3em solid;
+            border-right: 0.3em solid transparent;
+            border-bottom: 0;
+            border-left: 0.3em solid transparent; 
+       }
+        footer{
+            width: 100%;
+            height: 15%;
+            
+        }  
+        .nav-item{
+          border: none;
+          background-color: transparent;
+          width: max-content;
+        }    
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    
+        <nav class = "navbar fixed-top navbar-expand-sm navbar-light bg-light">
+            <div class="container py-2 px-2"> 
+            <button class ="navbar-toggler" type = "button" data-bs-toggle = "collapse" 
+            data-bs-target ="#navcollapse" aria-controls ="navcollapse" aria-expanded ="false"
+            aria-label = "toggle navigation">
+            <span class = "navbar-toggler-icon"></span>
+            </button>
+            <a href = "" class = "navbar-brand mb-0 h1">
+                <img src="../Desktop/logo.png" alt="" style="height: 50px;">
+            </a>
+               
+            <div class = "collapse navbar-collapse justify-content-center" id="navcollapse">
+                
+                  <ul class = "navbar-nav" style="display: flex; justify-content: center; align-items: center;">
+                    <button class = "nav-item active btn mx-2">обо мне</button>
+                    <button class = "nav-item active btn mx-2">News</button>
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle mx-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown button
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                    <button class = "nav-item active btn mx-2">Contact</button>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</header>
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+
+</html>
